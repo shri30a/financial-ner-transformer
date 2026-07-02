@@ -2,6 +2,10 @@
 
 > A transformer-based Named Entity Recognition (NER) system developed for the Dunedain Machine Learning / NLP Research Engineer Challenge using the FiNER-ORD financial dataset.
 
+> **Note:** If GitHub is unable to render the notebook preview, you can download `financial_ner_challenge.ipynb` directly from this repository or open the interactive version in Google Colab.
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1eUu81IHesJBkYaRnx8rAicBI0hoo9E7L?usp=sharing)
+
 ---
 
 ## Overview
@@ -115,7 +119,7 @@ Output:
 
 ## Repository Structure
 
-```
+```text
 financial-ner-transformer/
 │
 ├── financial_ner_challenge.ipynb
@@ -130,25 +134,25 @@ financial-ner-transformer/
 
 ## Running the Project
 
-1. Install dependencies
+1. Install the required dependencies:
 
 ```bash
 pip install -r requirements.txt
 ```
 
-2. Open the notebook
+2. Open the notebook:
 
-```
+```text
 financial_ner_challenge.ipynb
 ```
 
 3. Run all notebook cells to:
 
-- Load the dataset
-- Preprocess financial text
-- Fine-tune the transformer
-- Evaluate model performance
-- Generate sample predictions
+- Load the FiNER-ORD dataset
+- Preprocess and reconstruct sentence-level examples
+- Fine-tune the transformer model
+- Evaluate validation and test performance
+- Generate sample entity predictions
 
 ---
 
